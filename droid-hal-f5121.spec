@@ -25,5 +25,9 @@
 
 Requires: droid-system
 
+%define obs_requires\
+    BuildRequires: droid-system-vendor-obsbuild\
+%{nil}
+
 %include rpm/dhd/droid-hal-device.inc
 
