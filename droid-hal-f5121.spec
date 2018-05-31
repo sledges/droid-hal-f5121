@@ -23,6 +23,10 @@
     /service_contexts\
 %{nil}
 
+%define android_config \
+#define WANT_ADRENO_QUIRKS 1 \
+%{nil}
+
 Requires: droid-system
 
 %include rpm/dhd/droid-hal-device.inc
